@@ -37,6 +37,7 @@ The software is setup to use Basic Authentication for accessing the server data.
 ![01](./build/screenshots/03.png)
 ![01](./build/screenshots/04.png)
 ![01](./build/screenshots/05.png)
+![01](./build/screenshots/06.png)
 
 ## License
 Copyright (c) 2013, e-works media, inc.
