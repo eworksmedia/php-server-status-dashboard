@@ -1,0 +1,39 @@
+@media (max-width:979px) {
+	body {
+		padding-top: 0;
+	}
+}
+
+@media (max-width:767px) {
+	body {
+		padding: 0 5px;	
+	}
+	.navbar-fixed-top, 
+	.navbar-fixed-bottom, 
+	.navbar-static-top {
+		padding: 0 15px;	
+	}
+	.navbar .brand {
+		padding: 5px 10px 2px;	
+	}
+	.row {
+		margin-bottom:0;	
+	}
+	.content-box {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	.popover {
+		display: none !important;	
+	}
+}
+
+@media (max-width:339px) {
+	.brand {
+		width: 200px !important;
+	}
+}

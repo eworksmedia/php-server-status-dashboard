@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+table td {
+	font-size: 12px;
+	padding: 7px 5px;
+}
+table th {
+	background-color: #EEE;
+	font-size: 13.5px;
+	line-height: 120%;
+	font-weight: bold;
+	padding: 8px 5px;
+	text-align: left;
+}
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-handle {
+	display: block;
+	font-size: 0.1px;
+	position: absolute;
+	z-index: 99999;
+}
+.ui-resizable-s {
+	background: #EEEEEE url(../images/grippie.png) no-repeat scroll center 2px;
+	border-top: 1px solid #CCCCCC;
+	bottom: -5px;
+	cursor: s-resize;
+	height: 14px;
+	left: 0;
+	width: 100%;
+}

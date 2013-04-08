@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+* {
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+*, 
+html, 
+body {
+	font-family: 'Karla', sans-serif !important;
+}
+html, 
+body {
+	-webkit-backface-visibility: visible;
+	overflow-x: hidden;
+}
+body {
+	font-size: 14px;
+	padding: 70px 0 210px 0;
+	background-image: url(../images/bg_carbonfiber.png);
+	background-repeat: repeat;
+}
+h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: -5px;
+	line-height: 1.2em;
+	text-transform: lowercase;
+	text-align: left;
+	text-shadow: 1px 1px #583206;
+	background-color: #97662D;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#97662d), to(#7f5625));
+	background-image: -moz-linear-gradient(top, #97662d, #7f5625);
+	background-image: linear-gradient(top, #97662d, #97662d 45%, #97662d 46%, #7f5625 50%, #7f5625 51%, #7f5625));
+	background-repeat: no-repeat;
+	margin-left: -11px;
+	margin-right: -11px;
+	padding: 0 0 5px 20px;
+}
+.navbar {
+	z-index: 9999999;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .6);	
+}
+.navbar .brand {
+	cursor: pointer;
+	padding: 5px 20px 2px;
+}
+.dropdown-menu input {
+	cursor:pointer;
+	margin:0;
+	margin-right:5px;	
+}
+.dropdown-menu a,
+.dropdown-toggle,
+.server-switcher {
+	cursor: pointer;
+}
+.dropdown-toggle span {
+	font-weight: bold;
+	display:inline-block;
+	padding-left:5px;	
+}
+.row {
+	margin-bottom:20px;	
+}
+.content-box {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	background: #fcfcfc;
+	min-height:220px;
+	white-space:normal;
+	word-wrap:break-word;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .6);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .6);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .6);
+}
+.content-box.two-rows {
+	min-height: 472px;	
+}
+.loud {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+.loud-modifier {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    color: #b3b3b3;
+    font-size: 40px;
+    line-height: 1.1em;
+}
+._scrolling._thead {
+	z-index:999;	
+}
+table tr th {
+	cursor:default;
+}
+table.table-striped tbody>tr:nth-child(odd)>td, 
+table.table-striped tbody>tr:nth-child(odd)>th {
+	background-color: #f3f3f3;
+}
+table tbody tr.error>td {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #e01b1b !important;	
+}
+table tbody tr.error:hover>td {
+	background-color: #bf0404 !important;	
+}
+table tbody tr.warning>td {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #fca400 !important;	
+}
+table tbody tr.warning:hover>td {
+	background-color: #f58f00 !important;	
+}
+#services .icon-refresh {
+	margin-top:0;	
+}
+.tooltip-inner {
+	font-weight: bold;	
+}
+.popover {
+	max-width: 375px;	
+	z-index:9999999;
+}
+.popover-title {
+	font-weight: bold;	
+}
+#overlay {
+	text-align: center;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	z-index: 999999;
+}
+#start-box-container {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #c5c5c5;
+	background-image: url(../images/bg_carbonfiber.png);
+	background-repeat: repeat;	
+	z-index: 99999999;
+}
+#start-box {
+	width: 500px;
+	margin: 100px auto;
+	color: #000;
+	text-align: center;
+	background-color: #ffffff;
+	overflow: hidden;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.15);
+}
+#overlay {
+	text-align: center;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	z-index: 999999;
+}
+
